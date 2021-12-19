@@ -1,0 +1,87 @@
+button {
+  background-color: #ecf0f3;
+  border: 1px solid #ecf1f1;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+}
+/* button:hover {
+        background-color: #e0e6eb;
+        border: 0px inset #0ff166;
+        border-radius: 15px;
+        box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+      } */
+button:active {
+  background-color: #ecf0f3;
+  border: 0px inset #0ff166;
+  border-radius: 15px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+body {
+  background-color: #ecf0f3;
+  height: auto;
+}
+.title {
+  text-align: center;
+  color: rgb(99, 98, 98);
+}
+.game-board {
+  width: 450px;
+  height: 285px;
+  margin: 0 auto;
+  background-color: #ecf0f3;
+  color: rgb(204, 28, 28);
+  border: 0px solid #0b0d0f;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-row-gap: 20px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  padding: 20px;
+}
+
+.grid-row {
+  border: 6px solid #ecf0f3;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  grid-column-gap: 30px;
+  background-color: #ecf0f3;
+}
+.block {
+  background-color: rgb(219, 28, 28);
+  border: 0px solid green;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20em;
+}
+
+#turn {
+  color: rgb(99, 98, 98);
+  font-size: 24px;
+}
+
+#info {
+  color: rgb(99, 98, 98);
+  border: 10px solid #0b51ee;
+  border-radius: 30px;
+  margin-top: 20px;
+  background-color: #ffffff;
+  width: 430px;
+  text-align: center;
+}
+.tik {
+  color: rgb(99, 98, 98);
+}
+
+#status {
+  color: rgb(99, 98, 98);
+  font-size: 24px;
+}
