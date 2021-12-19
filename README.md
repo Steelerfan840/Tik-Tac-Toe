@@ -1,7 +1,7 @@
 # Tik-Tac-Toe
 ## Created in React
 <br>
-<img src = "screenshot.png" width = "300"/>
+<img src = "screenshot.jpg" width = "300"/>
 
 
 Title: Tic Tac Toe
